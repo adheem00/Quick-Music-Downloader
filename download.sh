@@ -11,3 +11,5 @@ echo "Download starting..."
 
 yt-dlp -x --audio-format mp3 "$URL" 2>&1 | grep ".*Destination: .*\.mp3"
 echo "Done!"
+
+explorer.exe .
